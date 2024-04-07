@@ -1,3 +1,60 @@
-// Paleta de colores
+$principal: #9D0208;
+$principalOscuro: #370617;
+$secundario: #E85D04;
+$claro: #FFFCF2;
+$oscuro: #252422;
+$formulario: #474544;
 
-// Fuentes
+$fuentePrincipal: 'Inter', sans-serif;
+$fuenteSecundaria: 'Bebas Neue', serif;
+
+html {
+    height: 100%;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.8rem;
+    font-family: $fuentePrincipal;
+}
+
+p {
+    font-size: 1.8rem;
+    font-family: $fuentePrincipal;
+    margin: 1rem auto;
+}
+
+a {
+    text-decoration: none;
+    color: $principalOscuro;
+}
+
+footer {
+    margin-top: auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    // text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3.4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
