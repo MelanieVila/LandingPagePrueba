@@ -26,22 +26,22 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md menu shadow fixed-top">
+        <nav class="navbar navbar-expand-md shadow fixed-top">
             <div class="container">
                 <a href="index.html"><img src="img/logo.png" alt="Your Company Logo"></a>
 
                 <div class="justify-content-end">
                     <ul class="navbar-nav">
-                        <li class="nav-item px-2">
+                        <li class="px-4">
                             <a href="#features">Features</a>
                         </li>
-                        <li class="nav-item px-2">
+                        <li class="px-4">
                             <a href="#about">About</a>
                         </li>
-                        <li class="nav-item px-2">
+                        <li class="px-4">
                             <a href="#download">Download</a>
                         </li>
-                        <li class="nav-item px-2">
+                        <li class="px-4">
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
@@ -51,126 +51,167 @@
     </header>
 
     <main>
-        <div>
-            <img src="img/description.png" alt="Main image"> <!-- Animar la imagen -->
-            <h1>Tagline With Your Unique Selling Proposition</h1>
-            <h3>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque
-                rutrum lorem in velit dignissim ultrices. In rutrum, neque eu molestie sodales, odio libero malesuada
-                massa, at porta ex eros ut nisi. Nunc et augue ac ligula eleifend scelerisque.</h3>
-            <button>Get Started</button>
-            <button>Learn More</button>
+        <div id="home" class="container mt-8">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Tagline With Your Unique Selling Proposition</h1>
+                    <h3 class="mt-4 mb-4">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                        cubilia curae;
+                        Pellentesque
+                        rutrum lorem in velit dignissim ultrices. In rutrum, neque eu molestie sodales, odio libero
+                        malesuada
+                        massa, at porta ex eros ut nisi. Nunc et augue ac ligula eleifend scelerisque.</h3>
+                    <button type="button" class="rounded-pill btn-rounded">Get Started</button>
+                    <button type="button" class="rounded-pill btn-rounded">Learn More</button>
+                </div>
+                <div class="col-md-6 text-end img__animation">
+                    <img src="img/description.png" alt="Main image" class="img-fluid">
+                </div>
+            </div>
         </div>
 
-        <div id="features">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="28" height="28"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="#E85D04" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M5 12l5 5l10 -10" />
-            </svg>
-            <p>Maecenas pretium mi ac tortor vestibulum elementum. Suspendisse potenti. Quisque ut semper orci.</p>
+        <div id="features" class="container mt-8">
+            <div class="row text-center">
+                <div class="col-12 col-md-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="28"
+                        height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9D0208" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M5 12l5 5l10 -10" />
+                    </svg>
+                    <h3 class="my-4">Feature One</h3>
+                    <p>Maecenas pretium mi ac tortor vestibulum elementum. Suspendisse potenti. Quisque ut semper orci.
+                    </p>
+                </div>
 
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-flag" width="28" height="28"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="#E85D04" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path d="M5 5a5 5 0 0 1 7 0a5 5 0 0 0 7 0v9a5 5 0 0 1 -7 0a5 5 0 0 0 -7 0v-9z" />
-                <path d="M5 21v-7" />
-            </svg>
-            <p>Vivamus mollis ipsum vitae est lacinia, a pharetra arcu volutpat. Nullam libero magna, volutpat eu
-                scelerisque vel, tincidunt a mi.</p>
+                <div class="col-12 col-md-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-flag" width="28"
+                        height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9D0208" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M5 5a5 5 0 0 1 7 0a5 5 0 0 0 7 0v9a5 5 0 0 1 -7 0a5 5 0 0 0 -7 0v-9z" />
+                        <path d="M5 21v-7" />
+                    </svg>
+                    <h3 class="my-4">Feature Two</h3>
+                    <p>Vivamus mollis ipsum vitae est lacinia, a pharetra arcu volutpat. Nullam libero magna, volutpat
+                        eu
+                        scelerisque vel, tincidunt a mi.</p>
+                </div>
 
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="28" height="28"
-                viewBox="0 0 24 24" stroke-width="1.5" stroke="#E85D04" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path
-                    d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
-            </svg>
-            <p>Morbi vel elit a dui mattis elementum. Vivamus eu tincidunt lectus. Cras ac augue ornare, rutrum ante
-                quis, ornare quam.</p>
+                <div class="col-12 col-md-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="28"
+                        height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9D0208" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                    </svg>
+                    <h3 class="my-4">Feature Three</h3>
+                    <p>Morbi vel elit a dui mattis elementum. Vivamus eu tincidunt lectus. Cras ac augue ornare, rutrum
+                        ante
+                        quis, ornare quam.</p>
+                </div>
+            </div>
         </div>
 
-        <div id="about">
-            <img src="img/app.png" alt="App Benefit">
-            <h2>Heading explaining the main benefit of your app</h2>
-            <p>Nunc mollis mauris sit amet congue imperdiet. Mauris maximus efficitur lectus, aliquam aliquet tortor
-                efficitur id. In lorem magna, rutrum sed gravida vitae, laoreet sed risus.</p>
-            <p>Phasellus commodo tempus tortor, nec sodales erat varius eget. Aliquam ornare diam a lorem vestibulum, at
-                porta ipsum ornare.</p>
+        <div id="about" class="container mt-8">
+            <div class="row align-items-center d-flex justify-content-center">
+                <div class="col-md-4 text-center">
+                    <img src="img/app.png" alt="App Benefit">
+                </div>
+                <div class="col-md-6 text-center">
+                    <h2>Heading explaining the main benefit of your app</h2>
+                    <p>Nunc mollis mauris sit amet congue imperdiet. Mauris maximus efficitur lectus, aliquam aliquet
+                        tortor
+                        efficitur id. In lorem magna, rutrum sed gravida vitae, laoreet sed risus.</p>
+                    <p>Phasellus commodo tempus tortor, nec sodales erat varius eget. Aliquam ornare diam a lorem
+                        vestibulum, at
+                        porta ipsum ornare.</p>
+                </div>
+            </div>
         </div>
 
-        <div id="download">
-            <h2>Download the mobile app for free</h2>
-            <p>Integer quis leo id lacus accumsan laoreet sed id erat. Donec ex eros, ultrices sit amet fringilla sed,
-                gravida fermentum diam. Vivamus quis sem vitae ex dignissim accumsan quis a massa.</p>
-            <img src="img/app-store.png" alt="Download on the App Store">
-            <img src="img/google-play.png" alt="Get it on Google Play">
+        <div id="download" class="container mt-8">
+            <div class="row text-center d-flex justify-content-center">
+                <div class="col-md-6 align-items-center">
+                    <h2>Download the mobile app for free</h2>
+                    <p>Integer quis leo id lacus accumsan laoreet sed id erat. Donec ex eros, ultrices sit amet
+                        fringilla sed,
+                        gravida fermentum diam. Vivamus quis sem vitae ex dignissim accumsan quis a massa.</p>
+                    <img src="img/app-store.png" alt="Download on the App Store" class="mx-2">
+                    <img src="img/google-play.png" alt="Get it on Google Play" class="mx-2">
+                </div>
+            </div>
         </div>
 
-        <div id="contact">
-            <h2>Get In Touch</h2>
-            <p>Aenean felis diam, vestibulum ut pretium eu, congue vitae justo. Duis quam libero, efficitur vitae lorem
-                vitae, lacinia tincidunt est. Donec quis placerat diam. Praesent condimentum vitae lorem eu laoreet.</p>
-            <div>
-                <label for="Email Adress"></label>
-                <input type="email" placeholder="Email Adress" required>
-                <label for="Full name"></label>
-                <input type="text" placeholder="Full name" name="Full name" required>
-                <input type="submit" value="Subscribe">
+        <div id="contact" class="container mt-8">
+            <div class="row text-center d-flex justify-content-center">
+                <div class="col-md-6 align-items-center">
+                    <h2>Get In Touch</h2>
+                    <p>Aenean felis diam, vestibulum ut pretium eu, congue vitae justo. Duis quam libero, efficitur
+                        vitae lorem
+                        vitae, lacinia tincidunt est. Donec quis placerat diam. Praesent condimentum vitae lorem eu
+                        laoreet.</p>
+                    <div>
+                        <label for="Email Adress"></label>
+                        <input type="email" placeholder="Email Adress" required>
+                        <label for="Full name"></label>
+                        <input type="text" placeholder="Full name" name="Full name" required>
+                        <input type="submit" value="Subscribe">
+                    </div>
+                </div>
             </div>
         </div>
     </main>
 
     <footer>
-        <ul>
-            <li class="nav-item px-2">
-                <a href="">Features</a>
-            </li>
-            <li class="nav-item px-2">
-                <a href="">About</a>
-            </li>
-            <li class="nav-item px-2">
-                <a href="">Testimonials</a>
-            </li>
-            <li class="nav-item px-2">
-                <a href="">Download</a>
-            </li>
-            <li class="nav-item px-2">
-                <a href="">Contact</a>
-            </li>
-        </ul>
+        <div class="container navbar-expand-md mt-8">
+            <ul class="navbar-nav d-flex justify-content-center">
+                <li class="px-4">
+                    [ <a href="#features">Features</a> ]
+                </li>
+                <li class="px-4">
+                    [ <a href="#about">About</a> ]
+                </li>
+                <li class="px-4">
+                    [ <a href="#download">Download</a> ]
+                </li>
+                <li class="px-4">
+                    [ <a href="#contact">Contact</a> ]
+                </li>
+            </ul>
 
-        <div>
-            <a href="/">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="28"
-                    height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#370617" fill="none"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-                </svg>
-            </a>
+            <div class="d-flex justify-content-center mt-3">
+                <a href="/">
+                    <svg class="mx-4" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook"
+                        width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#370617" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                    </svg>
+                </a>
 
-            <a href="/">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x" width="28"
-                    height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#370617" fill="none"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
-                    <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
-                </svg>
-            </a>
+                <a href="/">
+                    <svg class="mx-4" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-x" width="28"
+                        height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#370617" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                        <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                    </svg>
+                </a>
 
-            <a href="/">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="28"
-                    height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#370617" fill="none"
-                    stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
-                    <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-                    <path d="M16.5 7.5l0 .01" />
-                </svg>
-            </a>
+                <a href="/">
+                    <svg class="mx-4" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram"
+                        width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#370617" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                        <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                        <path d="M16.5 7.5l0 .01" />
+                    </svg>
+                </a>
+            </div>
         </div>
     </footer>
 

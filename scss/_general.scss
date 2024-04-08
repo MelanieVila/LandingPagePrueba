@@ -1,6 +1,5 @@
 $principal: #9D0208;
 $principalOscuro: #370617;
-$secundario: #E85D04;
 $claro: #FFFCF2;
 $oscuro: #252422;
 $formulario: #474544;
@@ -15,12 +14,12 @@ html {
 }
 
 body {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: $fuentePrincipal;
 }
 
 p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: $fuentePrincipal;
     margin: 1rem auto;
 }
@@ -36,25 +35,22 @@ footer {
 
 h1,
 h2,
-h3,
-h4 {
-    // text-align: center;
+h3 {
     margin: 0;
-    font-weight: bold;
 }
 
 h1 {
-    font-size: 3.4rem;
-}
-
-h2 {
     font-size: 3rem;
 }
 
-h3 {
-    font-size: 2.4rem;
+h2 {
+    font-size: 2.6rem;
 }
 
-h4 {
-    font-size: 1.6rem;
+h3 {
+    font-size: 2rem;
+}
+
+.mt-8 {
+    margin-top: 8rem;
 }
