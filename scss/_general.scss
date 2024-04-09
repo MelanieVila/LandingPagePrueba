@@ -2,7 +2,6 @@ $principal: #9D0208;
 $principalOscuro: #370617;
 $claro: #FFFCF2;
 $oscuro: #252422;
-$formulario: #474544;
 
 $fuentePrincipal: 'Inter', sans-serif;
 $fuenteSecundaria: 'Bebas Neue', serif;
@@ -21,16 +20,13 @@ body {
 p {
     font-size: 1.6rem;
     font-family: $fuentePrincipal;
-    margin: 1rem auto;
 }
 
 a {
     text-decoration: none;
-    color: $principalOscuro;
-}
-
-footer {
-    margin-top: auto;
+    color: $principal;
+    font-family: $fuenteSecundaria;
+    font-size: 2.5rem;
 }
 
 h1,
