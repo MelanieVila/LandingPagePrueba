@@ -40,6 +40,7 @@ h3 {
 
 h1 {
   font-size: 3rem;
+  font-family: "Bebas Neue", serif;
 }
 
 h2 {
@@ -52,6 +53,10 @@ h3 {
 
 .mt-8 {
   margin-top: 8rem;
+}
+
+.shadow-sm {
+  padding-bottom: 8rem;
 }
 
 #home {
@@ -78,7 +83,7 @@ h3 {
     transform: translateX(0px);
   }
 }
-.navbar {
+nav {
   background: linear-gradient(to right, rgba(235, 235, 235, 0.95), #FFFCF2);
 }
 

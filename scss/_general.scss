@@ -37,6 +37,7 @@ h3 {
 
 h1 {
     font-size: 3rem;
+    font-family: $fuenteSecundaria;
 }
 
 h2 {
@@ -49,4 +50,8 @@ h3 {
 
 .mt-8 {
     margin-top: 8rem;
+}
+
+.shadow-sm {
+    padding-bottom: 8rem;
 }
