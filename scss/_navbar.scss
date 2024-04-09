@@ -1,3 +1,27 @@
 nav {
     background: linear-gradient(to right, rgba(235, 235, 235, 0.95), $claro);
+    letter-spacing: 0.2rem;
+}
+
+li a {
+    position: relative;
+
+    &:hover {
+        color: $oscuro;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: -.4rem;
+        left: 0;
+        width: 0%;
+        height: .3rem;
+        background-color: $oscuro;
+        transition: all .5s;
+    }
+
+    &:hover:before {
+        width: 100%;
+    }
 }

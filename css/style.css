@@ -32,10 +32,12 @@ a {
   font-size: 2.5rem;
 }
 
-h1,
-h2,
-h3 {
-  margin: 0;
+h1::selection,
+h2::selection,
+h3::selection,
+p::selection {
+  background-color: #530808;
+  color: #FFFCF2;
 }
 
 h1 {
@@ -59,14 +61,20 @@ h3 {
   padding-bottom: 8rem;
 }
 
+.rounded-pill {
+  padding: 1rem;
+  font-weight: 500;
+  border: 0.1rem solid #530808;
+  transition: all 0.5s;
+}
+.rounded-pill:hover {
+  background-color: #9D0208;
+  color: #FFFCF2;
+}
+
 #home {
   padding: 10rem 0 0 0;
   background-color: rgba(157, 2, 8, 0.5);
-}
-#home button {
-  padding: 1rem;
-  font-weight: 700;
-  border: 0.1rem solid #9D0208;
 }
 
 .img__animation {
@@ -85,6 +93,27 @@ h3 {
 }
 nav {
   background: linear-gradient(to right, rgba(235, 235, 235, 0.95), #FFFCF2);
+  letter-spacing: 0.2rem;
+}
+
+li a {
+  position: relative;
+}
+li a:hover {
+  color: #252422;
+}
+li a::before {
+  content: "";
+  position: absolute;
+  bottom: -0.4rem;
+  left: 0;
+  width: 0%;
+  height: 0.3rem;
+  background-color: #252422;
+  transition: all 0.5s;
+}
+li a:hover:before {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,5 @@
 $principal: #9D0208;
-$principalOscuro: #370617;
+$principalOscuro: #530808;
 $claro: #FFFCF2;
 $oscuro: #252422;
 
@@ -31,8 +31,12 @@ a {
 
 h1,
 h2,
-h3 {
-    margin: 0;
+h3,
+p {
+    &::selection {
+        background-color: $principalOscuro;
+        color: $claro;
+    }
 }
 
 h1 {
